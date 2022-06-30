@@ -1,0 +1,81 @@
+body{
+    background:  hsl(0, 0%, 98%);
+    background-size: 1%;
+    color:  hsl(0, 0%, 41%);
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+
+}
+ ul .dropdown{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    padding: 20px ;
+    position: relative;
+    left: 9%;
+    top: -60px;
+
+}
+li a{
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;  
+}
+.columns{
+    position: relative;
+    left: 55%;
+    padding-bottom: 70px;
+}
+.button{
+    background: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: -10px;
+}
+
+.Main{
+   
+display: flex;
+width: 70%;
+margin: 0 auto;
+    
+}
+.container-one{
+    flex: 1;
+}
+.container-two{
+    flex: 1;
+}
+h1{
+font-size: 80px;
+color: black;
+font-weight: bolder;
+} 
+p{
+    line-height: 25px;
+}
+.learn button{
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 140px;
+}
+header{
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ 
